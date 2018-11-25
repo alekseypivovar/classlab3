@@ -11,7 +11,7 @@ void genPassword(int len, char buf[])
 
 int main()
 {
-	time_t now;
+	time_t now; /* это тут не нужно */
 	srand(time(0));
 	char buf[256];
 	int len=0;
