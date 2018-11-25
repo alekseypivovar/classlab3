@@ -21,7 +21,7 @@ int main()
 		genPassword(len, buf);
 		puts(buf);
 	
-		// счетчик числа упоминаний каждой буквы в пароле:
+		// schetcik upominaniya kazhdoy bukvi v parole:
 
 	int count[26] = { 0 };
 	for (int i = 0; i < len; i++)
